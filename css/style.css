@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+#intro {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+}
+
+.intro-left {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu {
+  width: 20vw;
+  height: 600vh;
+  z-index: 2;
+}
+
+.fundo{
+  height: 600vh;
+  background: black;
+  opacity: 0.5;
+}
+
+.intro-center {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.intro-center h1 {
+  color: white;
+  font-size: 4rem;
+  padding: 1rem 0 0 10rem;
+  font-weight: 900;
+}
+
+.intro-center img {
+  width: 55vw;
+  height: auto;
+  align-self: center;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  padding-left: 15vw;
+}
+
+.line h3 {
+  margin: 0 20px;
+  color: white;
+  font-weight: 400;
+}
+
+.line hr { /* tamanho do de baixo lado direito */
+  width: 40vw;
+  height: 1px;
+  margin: 0;
+  background: white;
+  border: none;
+}
+
+.line hr:first-child { /*tamanho do de baixo lado esquerdo */
+  width: 10vw;
+}
+
+.line:nth-child(1) { /*cima lado direito*/
+  padding: 0 25vw 0 25vw;
+}
+
+.line:nth-child(1) hr { /*tamanho do de cima lado direito*/
+  width: 8vw;
+}
+
+.line:nth-child(1) hr:first-child { /*tamanho do de cima lado esquerdo*/
+  width: 30vw;
+}
+
+#about {
+  height: 100vh;
+  background-color: white;
+}
+
+#about img {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  margin-top: 0;
+}
+
+#sobre-ccdm {
+  position: absolute;
+  width: 45vw;
+  height: 45vh;
+  left: 55%;
+  top: 110%;
+  background: black;
+}
+
+#rect-info p {
+  color: white;
+  font-size: 400;
+  text-align: justify;
+  padding: 15vh 15vw 3vh 2vw;
+}
+
+#speakers {
+  height: 100vh;
+  background-color: salmon;
+}
